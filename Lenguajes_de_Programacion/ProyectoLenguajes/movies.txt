@@ -1,0 +1,1204 @@
+:- dynamic movie/2.
+
+movie(american_beauty, 1999).
+movie(anna, 1987).
+movie(barton_fink, 1991).
+movie(the_big_lebowski, 1998).
+movie(blade_runner, 1997).
+movie(blood_simple, 1984).
+movie(the_cotton_club, 1984).
+movie(cq, 2001).
+movie(crimewave, 1985).
+movie(down_from_the_mountain, 2000).
+movie(fargo, 1996).
+movie(the_firm, 1993).
+movie(frankenweenie, 1984).
+movie(ghost_busters, 1984).
+movie(girl_with_a_pearl_earring, 2003).
+movie(the_godfather, 1972).
+movie(the_godfather_part_ii, 1974).
+movie(the_godfather_part_iii, 1990).
+movie(groundhog_day, 1993).
+movie(hail_caesar, 2016).
+movie(hearts_of_darkness_a_filmmaker_s_apocalypse, 1991).
+movie(the_hudsucker_proxy, 1994).
+movie(inside_monkey_zetterland, 1992).
+movie(intolerable_cruelty, 2003).
+movie(the_ladykillers, 2004).
+movie(lick_the_star, 1998).
+movie(lost_in_translation, 2003).
+movie(the_man_who_wasn_t_there, 2001).
+movie(marie_antoinette, 2006).
+movie(miller_s_crossing, 1990).
+movie(mission_impossible, 1996).
+movie(no_country_for_old_men, 2007).
+movie(o_brother_where_art_thou, 2000).
+movie(the_outsiders, 1983).
+movie(paris_je_t_aime, 2006).
+movie(peggy_sue_got_married, 1986).
+movie(raising_arizona, 1987).
+movie(rumble_fish, 1983).
+movie(spies_like_us, 1985).
+movie(star_wars_episode_i__the_phantom_menace, 1999).
+movie(torrance_rises, 1999).
+movie(the_usual_suspects, 1995).
+movie(the_virgin_suicides, 1999).
+movie(an_american_rhapsody, 2001).
+movie(the_black_dahlia, 2006).
+movie(fall, 1997).
+movie(eight_legged_freaks, 2002).
+movie(ghost_world, 2000).
+movie(a_good_woman, 2004).
+movie(if_lucy_fell, 1996).
+movie(home_alone_3, 1997).
+movie(the_horse_whisperer, 1998).
+movie(in_good_company, 2004).
+movie(just_cause, 1995).
+movie(the_island, 2005).
+movie(a_love_song_for_bobby_long, 2004).
+movie(manny__lo, 1996).
+movie(match_point, 2005).
+movie(my_brother_the_pig, 1999).
+movie(north, 1994).
+movie(the_perfect_score, 2004).
+movie(the_spongebob_squarepants_movie, 2004).
+movie(untitled_woody_allen_fall_project_2006, 2006).
+movie(a_view_from_the_bridge, 2006).
+movie(spiderman_far_home, 2018).
+
+:- dynamic director/2.
+
+director(american_beauty, sam_mendes).
+director(anna, yurek_bogayevicz).
+director(barton_fink, ethan_coen).
+director(barton_fink, joel_coen).
+director(the_big_lebowski, joel_coen).
+director(blade_runner, joseph_d_kucan).
+director(blood_simple, ethan_coen).
+director(blood_simple, joel_coen).
+director(the_cotton_club, francis_ford_coppola).
+director(cq, roman_coppola).
+director(crimewave, sam_raimi).
+director(down_from_the_mountain, nick_doob).
+director(down_from_the_mountain, chris_hegedus).
+director(down_from_the_mountain, d_a_pennebaker).
+director(fargo, ethan_coen).
+director(fargo, joel_coen).
+director(the_firm, sydney_pollack).
+director(frankenweenie, tim_burton).
+director(ghost_busters, ivan_reitman).
+director(girl_with_a_pearl_earring, peter_webber).
+director(the_godfather, francis_ford_coppola).
+director(the_godfather_part_ii, francis_ford_coppola).
+director(the_godfather_part_iii, francis_ford_coppola).
+director(groundhog_day, harold_ramis).
+director(hail_caesar, ethan_coen).
+director(hail_caesar, joel_coen).
+director(hearts_of_darkness_a_filmmaker_s_apocalypse, fax_bahr).
+director(hearts_of_darkness_a_filmmaker_s_apocalypse, eleanor_coppola).
+director(hearts_of_darkness_a_filmmaker_s_apocalypse, george_hickenlooper).
+director(the_hudsucker_proxy, ethan_coen).
+director(the_hudsucker_proxy, joel_coen).
+director(inside_monkey_zetterland, jefery_levy).
+director(intolerable_cruelty, ethan_coen).
+director(intolerable_cruelty, joel_coen).
+director(the_ladykillers, ethan_coen).
+director(the_ladykillers, joel_coen).
+director(lick_the_star, sofia_coppola).
+director(lost_in_translation, sofia_coppola).
+director(the_man_who_wasn_t_there, ethan_coen).
+director(the_man_who_wasn_t_there, joel_coen).
+director(marie_antoinette, sofia_coppola).
+director(miller_s_crossing, ethan_coen).
+director(miller_s_crossing, joel_coen).
+director(mission_impossible, brian_de_palma).
+director(no_country_for_old_men, joel_coen).
+director(o_brother_where_art_thou, ethan_coen).
+director(o_brother_where_art_thou, joel_coen).
+director(the_outsiders, francis_ford_coppola).
+director(paris_je_t_aime, olivier_assayas).
+director(paris_je_t_aime, fr_d_ric_auburtin).
+director(paris_je_t_aime, christoffer_boe).
+director(paris_je_t_aime, sylvain_chomet).
+director(paris_je_t_aime, ethan_coen).
+director(paris_je_t_aime, joel_coen).
+director(paris_je_t_aime, isabel_coixet).
+director(paris_je_t_aime, alfonso_cuar_n).
+director(paris_je_t_aime, g_rard_depardieu).
+director(paris_je_t_aime, jean_luc_godard).
+director(paris_je_t_aime, richard_lagravenese).
+director(paris_je_t_aime, anne_marie_mi_ville).
+director(paris_je_t_aime, vincenzo_natali).
+director(paris_je_t_aime, alexander_payne).
+director(paris_je_t_aime, walter_salles).
+director(paris_je_t_aime, oliver_schmitz).
+director(paris_je_t_aime, ettore_scola).
+director(paris_je_t_aime, nobuhiro_suwa).
+director(paris_je_t_aime, daniela_thomas).
+director(paris_je_t_aime, tom_tykwer).
+director(paris_je_t_aime, gus_van_sant).
+director(peggy_sue_got_married, francis_ford_coppola).
+director(raising_arizona, ethan_coen).
+director(raising_arizona, joel_coen).
+director(rumble_fish, francis_ford_coppola).
+director(spies_like_us, john_landis).
+director(star_wars_episode_i__the_phantom_menace, george_lucas).
+director(torrance_rises, lance_bangs).
+director(torrance_rises, spike_jonze).
+director(torrance_rises, torrance_community_dance_group).
+director(the_usual_suspects, bryan_singer).
+director(the_virgin_suicides, sofia_coppola).
+director(an_american_rhapsody, va_g_rdos).
+director(the_black_dahlia, brian_de_palma).
+director(fall, eric_schaeffer).
+director(eight_legged_freaks, ellory_elkayem).
+director(ghost_world, terry_zwigoff).
+director(a_good_woman, mike_barker).
+director(if_lucy_fell, eric_schaeffer).
+director(home_alone_3, raja_gosnell).
+director(the_horse_whisperer, robert_redford).
+director(in_good_company, paul_weitz).
+director(just_cause, arne_glimcher).
+director(the_island, michael_bay).
+director(a_love_song_for_bobby_long, shainee_gabel).
+director(manny__lo, lisa_krueger).
+director(match_point, woody_allen).
+director(my_brother_the_pig, erik_fleming).
+director(north, rob_reiner).
+director(the_perfect_score, brian_robbins).
+director(the_spongebob_squarepants_movie, stephen_hillenburg).
+director(untitled_woody_allen_fall_project_2006, woody_allen).
+director(akira, broly).
+
+:- dynamic actor/3.
+
+actor(american_beauty, kevin_spacey, lester_burnham).
+actor(american_beauty, wes_bentley, ricky_fitts).
+actor(american_beauty, chris_cooper, col_frank_fitts_usmc).
+actor(american_beauty, peter_gallagher, buddy_kane).
+actor(american_beauty, scott_bakula, jim_olmeyer).
+actor(american_beauty, sam_robards, jim_berkley).
+actor(american_beauty, barry_del_sherman, brad_dupree).
+actor(american_beauty, john_cho, sale_house_man_1).
+actor(american_beauty, fort_atkinson, sale_house_man_2).
+actor(american_beauty, kent_faulcon, sale_house_man_3).
+actor(american_beauty, joel_mccrary, catering_boss).
+actor(american_beauty, dennis_anderson, mr_smiley_s_manager).
+actor(american_beauty, matthew_kimbrough, firing_range_attendant).
+actor(anna, robert_fields, daniel).
+actor(anna, gibby_brand, director_1).
+actor(anna, john_robert_tillotson, director_2).
+actor(anna, joe_aufiery, stage_manager).
+actor(anna, lance_davis, assistant_1).
+actor(anna, charles_randall, agent).
+actor(anna, larry_pine, baskin).
+actor(anna, stefan_schnabel, professor).
+actor(anna, steven_gilborn, tonda).
+actor(anna, rand_stone, george).
+actor(anna, david_r_ellis, daniel_s_father).
+actor(anna, brian_kohn, jonathan).
+actor(anna, vasek_simek, czech_demonstrator_1).
+actor(anna, paul_leski, czech_demonstrator_2).
+actor(anna, larry_attile, czech_demonstrator_3).
+actor(anna, theo_mayes, dancing_dishwasher).
+actor(barton_fink, john_turturro, barton_fink).
+actor(barton_fink, john_goodman, charlie_meadows).
+actor(barton_fink, michael_lerner, jack_lipnick).
+actor(barton_fink, john_mahoney, w_p_mayhew).
+actor(barton_fink, tony_shalhoub, ben_geisler).
+actor(barton_fink, jon_polito, lou_breeze).
+actor(barton_fink, steve_buscemi, chet).
+actor(barton_fink, david_warrilow, garland_stanford).
+actor(barton_fink, richard_portnow, detective_mastrionotti).
+actor(barton_fink, christopher_murney, detective_deutsch).
+actor(barton_fink, i_m_hobson, derek).
+actor(barton_fink, lance_davis, richard_st_claire).
+actor(barton_fink, harry_bugin, pete).
+actor(barton_fink, anthony_gordon, maitre_d).
+actor(barton_fink, jack_denbo, stagehand).
+actor(barton_fink, max_grod_nchik, clapper_boy).
+actor(barton_fink, robert_beecher, referee).
+actor(barton_fink, darwyn_swalve, wrestler).
+actor(barton_fink, johnny_judkins, sailor).
+actor(barton_fink, william_preston_robertson, voice).
+actor(the_big_lebowski, jeff_bridges, jeffrey_lebowski__the_dude).
+actor(the_big_lebowski, john_goodman, walter_sobchak).
+actor(the_big_lebowski, steve_buscemi, theodore_donald_donny_kerabatsos).
+actor(the_big_lebowski, david_huddleston, jeffrey_lebowski__the_big_lebowski).
+actor(the_big_lebowski, philip_seymour_hoffman, brandt).
+actor(the_big_lebowski, philip_moon, woo_treehorn_thug).
+actor(the_big_lebowski, mark_pellegrino, blond_treehorn_thug).
+actor(the_big_lebowski, peter_stormare, uli_kunkel_nihilist_1__karl_hungus).
+actor(the_big_lebowski, flea, nihilist_2).
+actor(the_big_lebowski, torsten_voges, nihilist_3).
+actor(the_big_lebowski, jimmie_dale_gilmore, smokey).
+actor(the_big_lebowski, jack_kehler, marty).
+actor(the_big_lebowski, john_turturro, jesus_quintana).
+actor(the_big_lebowski, james_g_hoosier, liam_o_brien).
+actor(the_big_lebowski, carlos_leon, maude_s_thug).
+actor(the_big_lebowski, terrence_burton, maude_s_thug).
+actor(the_big_lebowski, richard_gant, older_cop).
+actor(the_big_lebowski, christian_clemenson, younger_cop).
+actor(the_big_lebowski, dom_irrera, tony_the_chauffeur).
+actor(the_big_lebowski, g_rard_l_heureux, lebowski_s_chauffeur).
+actor(the_big_lebowski, david_thewlis, knox_harrington).
+actor(the_big_lebowski, mike_gomez, auto_circus_cop).
+actor(the_big_lebowski, peter_siragusa, gary_the_bartender).
+actor(the_big_lebowski, sam_elliott, the_stranger).
+actor(the_big_lebowski, marshall_manesh, doctor).
+actor(the_big_lebowski, harry_bugin, arthur_digby_sellers).
+actor(the_big_lebowski, jesse_flanagan, little_larry_sellers).
+actor(the_big_lebowski, luis_colina, corvette_owner).
+actor(the_big_lebowski, ben_gazzara, jackie_treehorn).
+actor(the_big_lebowski, leon_russom, malibu_police_chief).
+actor(the_big_lebowski, ajgie_kirkland, cab_driver).
+actor(the_big_lebowski, jon_polito, da_fino).
+actor(the_big_lebowski, jerry_haleva, saddam_hussein).
+actor(the_big_lebowski, warren_keith, funeral_director).
+actor(the_big_lebowski, paris_themmen, '').
+actor(blade_runner, martin_azarow, dino_klein).
+actor(blade_runner, lloyd_bell, additional_voices).
+actor(blade_runner, mark_benninghoffen, ray_mccoy).
+actor(blade_runner, warren_burton, runciter).
+actor(blade_runner, gary_columbo, general_doll).
+actor(blade_runner, jason_cottle, luthur_lance_photographer).
+actor(blade_runner, timothy_dang, izo).
+actor(blade_runner, gerald_deloff, additional_voices).
+actor(blade_runner, gary_l_freeman, additional_voices).
+actor(blade_runner, jeff_garlin, lieutenant_edison_guzza).
+actor(blade_runner, eric_gooch, additional_voices).
+actor(blade_runner, javier_grajeda, gaff).
+actor(blade_runner, mike_grayford, additional_voices).
+actor(blade_runner, james_hong, dr_chew).
+actor(blade_runner, anthony_izzo, officer_leary).
+actor(blade_runner, brion_james, leon).
+actor(blade_runner, terry_jourden, spencer_grigorian).
+actor(blade_runner, jerry_kernion, holloway).
+actor(blade_runner, joseph_d_kucan, crazylegs_larry).
+actor(blade_runner, jerry_lan, murray).
+actor(blade_runner, michael_b_legg, additional_voices).
+actor(blade_runner, demarlo_lewis, additional_voices).
+actor(blade_runner, tse_cheng_lo, additional_voices).
+actor(blade_runner, mohanned_mansour, additional_voices).
+actor(blade_runner, michael_mcshane, marcus_eisenduller).
+actor(blade_runner, alexander_mervin, sadik).
+actor(blade_runner, tony_mitch, governor_kolvig).
+actor(blade_runner, toru_nagai, howie_lee).
+actor(blade_runner, dwight_k_okahara, additional_voices).
+actor(blade_runner, gerald_okamura, zuben).
+actor(blade_runner, bruno_oliver, gordo_frizz).
+actor(blade_runner, mark_rolston, clovis).
+actor(blade_runner, stephen_root, early_q).
+actor(blade_runner, william_sanderson, j_f_sebastian).
+actor(blade_runner, vincent_schiavelli, bullet_bob).
+actor(blade_runner, ron_snow, blimp_announcer).
+actor(blade_runner, stephen_sorrentino, shoeshine_man_hasan).
+actor(blade_runner, iqbal_theba, moraji).
+actor(blade_runner, joe_turkel, eldon_tyrell).
+actor(blade_runner, bill_wade, hanoi).
+actor(blade_runner, jim_walls, additional_voices).
+actor(blade_runner, marc_worden, baker).
+actor(blade_runner, joe_tippy_zeoli, officer_grayford).
+actor(blood_simple, john_getz, ray).
+actor(blood_simple, dan_hedaya, julian_marty).
+actor(blood_simple, m_emmet_walsh, loren_visser_private_detective).
+actor(blood_simple, samm_art_williams, meurice).
+actor(blood_simple, van_brooks, man_from_lubbock).
+actor(blood_simple, se_or_marco, mr_garcia).
+actor(blood_simple, william_creamer, old_cracker).
+actor(blood_simple, loren_bivens, strip_bar_exhorter).
+actor(blood_simple, bob_mcadams, strip_bar_exhorter).
+actor(blood_simple, william_preston_robertson, radio_evangelist).
+actor(blood_simple, barry_sonnenfeld, marty_s_vomiting).
+actor(the_cotton_club, richard_gere, michael_dixie_dwyer).
+actor(the_cotton_club, gregory_hines, sandman_williams).
+actor(the_cotton_club, bob_hoskins, owney_madden).
+actor(the_cotton_club, james_remar, dutch_schultz).
+actor(the_cotton_club, nicolas_cage, vincent_dwyer).
+actor(the_cotton_club, allen_garfield, abbadabba_berman).
+actor(the_cotton_club, fred_gwynne, frenchy_demange).
+actor(the_cotton_club, maurice_hines, clay_williams).
+actor(the_cotton_club, julian_beck, sol_weinstein).
+actor(the_cotton_club, laurence_fishburne, bumpy_rhodes).
+actor(the_cotton_club, john_p_ryan, joe_flynn).
+actor(the_cotton_club, tom_waits, irving_stark).
+actor(the_cotton_club, ron_karabatsos, mike_best).
+actor(the_cotton_club, glenn_withrow, ed_popke).
+actor(the_cotton_club, charles_honi_coles, suger_coates).
+actor(the_cotton_club, larry_marshall, cab_calloway_minnie_the_moocher__lady_with_the_fan_and_jitterbug_sung_by).
+actor(the_cotton_club, joe_dallesandro, charles_lucky_luciano).
+actor(the_cotton_club, ed_o_ross, monk).
+actor(the_cotton_club, frederick_downs_jr, sullen_man).
+actor(the_cotton_club, tucker_smallwood, kid_griffin).
+actor(the_cotton_club, woody_strode, holmes).
+actor(the_cotton_club, bill_graham, j_w).
+actor(the_cotton_club, dayton_allen, solly).
+actor(the_cotton_club, kim_chan, ling).
+actor(the_cotton_club, ed_rowan, messiah).
+actor(the_cotton_club, leonard_termo, danny).
+actor(the_cotton_club, george_cantero, vince_hood).
+actor(the_cotton_club, brian_tarantina, vince_hood).
+actor(the_cotton_club, bruce_macvittie, vince_hood).
+actor(the_cotton_club, james_russo, vince_hood).
+actor(the_cotton_club, giancarlo_esposito, bumpy_hood).
+actor(the_cotton_club, bruce_hubbard, bumpy_hood).
+actor(the_cotton_club, rony_clanton, caspar_holstein).
+actor(the_cotton_club, damien_leake, bub_jewett).
+actor(the_cotton_club, bill_cobbs, big_joe_ison).
+actor(the_cotton_club, joe_lynn, marcial_flores).
+actor(the_cotton_club, oscar_barnes, spanish_henry).
+actor(the_cotton_club, ed_zang, hotel_clerk).
+actor(the_cotton_club, zane_mark, duke_ellington).
+actor(the_cotton_club, tom_signorelli, butch_murdock).
+actor(the_cotton_club, paul_herman, policeman_1).
+actor(the_cotton_club, randle_mell, policeman_2).
+actor(the_cotton_club, steve_vignari, trigger_mike_coppola).
+actor(the_cotton_club, gregory_rozakis, charlie_chaplin).
+actor(the_cotton_club, marc_coppola, ted_husing).
+actor(the_cotton_club, robert_earl_jones, stage_door_joe).
+actor(the_cotton_club, vincent_jerosa, james_cagney).
+actor(the_cotton_club, steve_cafiso, child_in_street).
+actor(the_cotton_club, john_cafiso, child_in_street).
+actor(the_cotton_club, christopher_lewis, child_in_street).
+actor(the_cotton_club, jason_papalardo, child_in_street).
+actor(the_cotton_club, demetrius_pena, child_in_street).
+actor(the_cotton_club, james_buster_brown, hoofer).
+actor(the_cotton_club, ralph_brown, hoofer).
+actor(the_cotton_club, harold_cromer, hoofer).
+actor(the_cotton_club, bubba_gaines, hoofer).
+actor(the_cotton_club, george_hillman, hoofer).
+actor(the_cotton_club, henry_phace_roberts, hoofer).
+actor(the_cotton_club, howard_sandman_sims, hoofer).
+actor(the_cotton_club, jimmy_slyde, hoofer).
+actor(the_cotton_club, henry_letang, hoofer).
+actor(the_cotton_club, charles_young, hoofer).
+actor(the_cotton_club, skip_cunningham, tip_tap__toe).
+actor(the_cotton_club, luther_fontaine, tip_tap__toe).
+actor(the_cotton_club, jan_mickens, tip_tap__toe).
+actor(the_cotton_club, lester_brown, dancer).
+actor(the_cotton_club, benny_clorey, dancer).
+actor(the_cotton_club, ruddy_l_garner, dancer).
+actor(the_cotton_club, dave_jackson, dancer).
+actor(the_cotton_club, alde_lewis, dancer).
+actor(the_cotton_club, bernard_manners, dancer).
+actor(the_cotton_club, bernard_marsh, dancer).
+actor(the_cotton_club, david_mcharris, dancer).
+actor(the_cotton_club, gary_thomas, dancer).
+actor(the_cotton_club, mario_van_peebles, dancer).
+actor(the_cotton_club, ivery_wheeler, dancer).
+actor(the_cotton_club, donald_williams, dancer).
+actor(the_cotton_club, george_coutoupis, gangster).
+actor(the_cotton_club, nicholas_j_giangiulio, screen_test_thug).
+actor(the_cotton_club, mark_margolis, gunman_sooting_cage_s_character).
+actor(the_cotton_club, kirk_taylor, cotton_club_waiter).
+actor(the_cotton_club, stan_tracy, legs_diamond_s_bodyguard).
+actor(the_cotton_club, rick_washburn, hitman).
+actor(cq, jeremy_davies, paul).
+actor(cq, g_rard_depardieu, andrezej).
+actor(cq, giancarlo_giannini, enzo).
+actor(cq, massimo_ghini, fabrizio).
+actor(cq, jason_schwartzman, felix_demarco).
+actor(cq, billy_zane, mr_e).
+actor(cq, john_phillip_law, chairman).
+actor(cq, silvio_muccino, pippo).
+actor(cq, dean_stockwell, dr_ballard).
+actor(cq, bernard_verley, trailer_voiceover_actor).
+actor(cq, l_m_kit_carson, fantasy_critic).
+actor(cq, chris_bearne, fantasy_critic).
+actor(cq, jean_paul_scarpitta, fantasy_critic).
+actor(cq, nicolas_saada, fantasy_critic).
+actor(cq, remi_fourquin, fantasy_critic).
+actor(cq, jean_claude_schlim, fantasy_critic).
+actor(cq, jacques_deglas, fantasy_critic).
+actor(cq, gilles_soeder, fantasy_critic).
+actor(cq, julian_nest, festival_critic).
+actor(cq, leslie_woodhall, board_member).
+actor(cq, jean_baptiste_kremer, board_member).
+actor(cq, franck_sasonoff, angry_man_at_riots).
+actor(cq, jean_fran_ois_wolff, party_man).
+actor(cq, eric_connor, long_haired_actor_at_party).
+actor(cq, fr_d_ric_de_brabant, steward).
+actor(cq, shawn_mortensen, revolutionary_guard).
+actor(cq, matthieu_tonetti, revolutionary_guard).
+actor(cq, mark_thompson_ashworth, lead_ghoul).
+actor(cq, pieter_riemens, assistant_director).
+actor(cq, andrea_cormaci, soldier_boy).
+actor(cq, emidio_la_vella, italian_actor).
+actor(cq, massimo_schina, friendly_guy_at_party).
+actor(cq, christophe_chrompin, jealous_boyfriend).
+actor(cq, romain_duris, hippie_filmmaker).
+actor(cq, chris_anthony, second_assistant_director).
+actor(cq, dean_tavoularis, man_at_screening).
+actor(crimewave, paul_l_smith, faron_crush).
+actor(crimewave, brion_james, arthur_coddish).
+actor(crimewave, edward_r_pressman, ernest_trend).
+actor(crimewave, bruce_campbell, renaldo_the_heel).
+actor(crimewave, reed_birney, vic_ajax).
+actor(crimewave, richard_bright, officer_brennan).
+actor(crimewave, antonio_fargas, blind_man).
+actor(crimewave, hamid_dana, donald_odegard).
+actor(crimewave, john_hardy, mr_yarman).
+actor(crimewave, emil_sitka, colonel_rodgers).
+actor(crimewave, hal_youngblood, jack_elroy).
+actor(mission_impossible, sam_douglas, kiev_room_agent).
+actor(mission_impossible, andrzej_borkowski, kiev_room_agent).
+actor(mission_impossible, david_schneider, train_engineer).
+actor(mission_impossible, richard_d_sharp, cia_lobby_guard).
+actor(mission_impossible, randall_paul, cia_escort_guard).
+actor(mission_impossible, graydon_gould, public_official).
+actor(mission_impossible, tony_vogel, m_i_5).
+actor(mission_impossible, michael_rogers, large_man).
+actor(mission_impossible, morgan_deare, donald_hunt).
+actor(mission_impossible, david_phelan, steward_on_train).
+actor(mission_impossible, keith_campbell, fireman).
+actor(mission_impossible, michael_cella, student).
+actor(mission_impossible, emilio_estevez, jack_harmon).
+actor(mission_impossible, john_knoll, passenger_on_train_in_tunnel).
+actor(o_brother_where_art_thou, george_clooney, ulysses_everett_mcgill).
+actor(o_brother_where_art_thou, john_turturro, pete).
+actor(o_brother_where_art_thou, tim_blake_nelson, delmar_o_donnell).
+actor(o_brother_where_art_thou, john_goodman, big_dan_teague).
+actor(o_brother_where_art_thou, chris_thomas_king, tommy_johnson).
+actor(o_brother_where_art_thou, charles_durning, pappy_o_daniel).
+actor(o_brother_where_art_thou, del_pentecost, junior_o_daniel).
+actor(o_brother_where_art_thou, michael_badalucco, george_nelson).
+actor(o_brother_where_art_thou, j_r_horne, pappy_s_staff).
+actor(o_brother_where_art_thou, brian_reddy, pappy_s_staff).
+actor(o_brother_where_art_thou, wayne_duvall, homer_stokes).
+actor(o_brother_where_art_thou, ed_gale, the_little_man).
+actor(o_brother_where_art_thou, ray_mckinnon, vernon_t_waldrip).
+actor(o_brother_where_art_thou, daniel_von_bargen, sheriff_cooley_the_devil).
+actor(o_brother_where_art_thou, royce_d_applegate, man_with_bullhorn).
+actor(o_brother_where_art_thou, frank_collison, wash_hogwallop).
+actor(o_brother_where_art_thou, quinn_gasaway, boy_hogwallop).
+actor(o_brother_where_art_thou, lee_weaver, blind_seer).
+actor(o_brother_where_art_thou, millford_fortenberry, pomade_vendor).
+actor(o_brother_where_art_thou, stephen_root, radio_station_man).
+actor(o_brother_where_art_thou, john_locke, mr_french).
+actor(o_brother_where_art_thou, a_ray_ratliff, record_store_clerk).
+actor(o_brother_where_art_thou, michael_w_finnell, interrogator).
+actor(o_brother_where_art_thou, john_mcconnell, woolworths_manager).
+actor(o_brother_where_art_thou, issac_freeman, gravedigger).
+actor(o_brother_where_art_thou, wilson_waters_jr, gravedigger).
+actor(o_brother_where_art_thou, robert_hamlett, gravedigger).
+actor(o_brother_where_art_thou, willard_cox, cox_family).
+actor(o_brother_where_art_thou, sidney_cox, cox_family).
+actor(o_brother_where_art_thou, buck_white, the_whites).
+actor(o_brother_where_art_thou, ed_snodderly, village_idiot).
+actor(o_brother_where_art_thou, david_holt, village_idiot).
+actor(o_brother_where_art_thou, jerry_douglas, dobro_player).
+actor(o_brother_where_art_thou, christopher_francis, kkk_member).
+actor(o_brother_where_art_thou, geoffrey_gould, head_of_mob).
+actor(o_brother_where_art_thou, nathaniel_lee_jr, ice_boy_on_the_right_straw_hat).
+actor(the_outsiders, matt_dillon, dallas_dally_winston).
+actor(the_outsiders, ralph_macchio, johnny_cade).
+actor(the_outsiders, c_thomas_howell, ponyboy_curtis).
+actor(the_outsiders, patrick_swayze, darrel_darry_curtis).
+actor(the_outsiders, rob_lowe, sodapop_curtis).
+actor(the_outsiders, emilio_estevez, keith_two_bit_mathews).
+actor(the_outsiders, tom_cruise, steve_randle).
+actor(the_outsiders, glenn_withrow, tim_shepard).
+actor(the_outsiders, leif_garrett, bob_sheldon).
+actor(the_outsiders, darren_dalton, randy_anderson).
+actor(the_outsiders, gailard_sartain, jerry_wood).
+actor(the_outsiders, tom_waits, buck_merrill).
+actor(the_outsiders, william_smith, store_clerk).
+actor(the_outsiders, tom_hillmann, greaser_in_concession_stand).
+actor(the_outsiders, hugh_walkinshaw, soc_in_concession_stand).
+actor(the_outsiders, brent_beesley, suburb_guy).
+actor(theutsiders, john_meier, paul).
+actor(the_outsiders, ed_jackson, motorcycle_cop).
+actor(the_outsiders, daniel_r_suhart, orderly).
+actor(paris_je_t_aime, steve_buscemi, the_tourist_segment_1st_arrondissement).
+actor(paris_je_t_aime, axel_kiener, axel_segment_1st_arrondissement).
+actor(paris_je_t_aime, willem_dafoe, the_cow_boy_segment_2nd_arrondissement).
+actor(paris_je_t_aime, elias_mcconnell, eli_segment_4th_arrondissement).
+actor(paris_je_t_aime, gaspard_ulliel, gaspar_segment_4th_arrondissement).
+actor(paris_je_t_aime, ben_gazzara, ben_segment_6th_arrondissement).
+actor(paris_je_t_aime, paul_putner, male_mime_segment_7th_arrondissement).
+actor(paris_je_t_aime, bob_hoskins, bob_leander_segment_9th_arrondissement).
+actor(paris_je_t_aime, melchior_beslon, thomas_segment_10th_arrondissement).
+actor(paris_je_t_aime, javier_c_mara, the_doctor_segment_12th_arrondissement).
+actor(paris_je_t_aime, nick_nolte, vincent_segment_17th_arrondissement).
+actor(paris_je_t_aime, seydou_boro, hassan_segment_19th_arrondissement).
+actor(peggy_sue_got_married, nicolas_cage, charlie_bodell).
+actor(peggy_sue_got_married, barry_miller, richard_norvik).
+actor(peggy_sue_got_married, kevin_j_o_connor, michael_fitzsimmons).
+actor(peggy_sue_got_married, jim_carrey, walter_getz).
+actor(peggy_sue_got_married, wil_shriner, arthur_nagle).
+actor(peggy_sue_got_married, don_murray, jack_kelcher).
+actor(peggy_sue_got_married, leon_ames, barney_alvorg).
+actor(peggy_sue_got_married, randy_bourne, scott_bodell).
+actor(peggy_sue_got_married, don_stark, doug_snell).
+actor(peggy_sue_got_married, marshall_crenshaw, reunion_band).
+actor(peggy_sue_got_married, chris_donato, reunion_band).
+actor(peggy_sue_got_married, robert_crenshaw, reunion_band).
+actor(peggy_sue_got_married, tom_teeley, reunion_band).
+actor(peggy_sue_got_married, graham_maby, reunion_band).
+actor(peggy_sue_got_married, ken_grantham, mr_snelgrove).
+actor(peggy_sue_got_married, glenn_withrow, terry).
+actor(peggy_sue_got_married, harry_basil, leon).
+actor(peggy_sue_got_married, john_carradine, leo).
+actor(peggy_sue_got_married, morgan_upton, mr_gilford).
+actor(peggy_sue_got_married, dr_lewis_leibovich, dr_daly).
+actor(peggy_sue_got_married, bill_bonham, drunk).
+actor(peggy_sue_got_married, joe_lerer, drunk_creep).
+actor(peggy_sue_got_married, martin_scott, the_four_mations).
+actor(peggy_sue_got_married, marcus_scott, the_four_mations).
+actor(peggy_sue_got_married, carl_lockett, the_four_mations).
+actor(peggy_sue_got_married, tony_saunders, the_four_mations).
+actor(peggy_sue_got_married, vincent_lars, the_four_mations).
+actor(peggy_sue_got_married, larry_e_vann, the_four_mations).
+actor(peggy_sue_got_married, lawrence_menkin, elderly_gentleman).
+actor(peggy_sue_got_married, daniel_r_suhart, chinese_waiter).
+actor(peggy_sue_got_married, leslie_hilsinger, majorette).
+actor(peggy_sue_got_married, al_nalbandian, lodge_member).
+actor(peggy_sue_got_married, dan_leegant, lodge_member).
+actor(peggy_sue_got_married, ron_cook, lodge_member).
+actor(peggy_sue_got_married, michael_x_martin, '').
+actor(raising_arizona, nicolas_cage, h_i_mcdonnough).
+actor(raising_arizona, trey_wilson, nathan_arizona_huffhines_sr).
+actor(raising_arizona, john_goodman, gale_snoats).
+actor(raising_arizona, william_forsythe, evelle_snoats).
+actor(raising_arizona, sam_mcmurray, glen).
+actor(raising_arizona, randall_tex_cobb, leonard_smalls).
+actor(raising_arizona, t_j_kuhn, nathan_arizona_jr).
+actor(raising_arizona, peter_benedek, prison_counselor).
+actor(raising_arizona, charles_lew_smith, nice_old_grocery_man).
+actor(raising_arizona, warren_keith, younger_fbi_agent).
+actor(raising_arizona, henry_kendrick, older_fbi_agent).
+actor(raising_arizona, sidney_dawson, moses_ear_bending_cellmate).
+actor(raising_arizona, richard_blake, parole_board_chairman).
+actor(raising_arizona, troy_nabors, parole_board_member).
+actor(raising_arizona, john_o_donnal, hayseed_in_the_pickup).
+actor(raising_arizona, keith_jandacek, whitey).
+actor(raising_arizona, warren_forsythe, minister).
+actor(raising_arizona, ruben_young, trapped_convict).
+actor(raising_arizona, dennis_sullivan, policeman_in_arizona_house).
+actor(raising_arizona, richard_alexander, policeman_in_arizona_house).
+actor(raising_arizona, rusty_lee, feisty_hayseed).
+actor(raising_arizona, james_yeater, fingerprint_technician).
+actor(raising_arizona, bill_andres, reporter).
+actor(raising_arizona, carver_barns, reporter).
+actor(raising_arizona, bill_rocz, newscaster).
+actor(raising_arizona, jeremy_babendure, scamp_with_squirt_gun).
+actor(raising_arizona, bill_dobbins, adoption_agent).
+actor(raising_arizona, ralph_norton, gynecologist).
+actor(raising_arizona, henry_tank, mopping_convict).
+actor(raising_arizona, frank_outlaw, supermarket_manager).
+actor(raising_arizona, todd_michael_rodgers, varsity_nathan_jr).
+actor(raising_arizona, m_emmet_walsh, machine_shop_ear_bender).
+actor(raising_arizona, robert_gray, glen_and_dot_s_kid).
+actor(raising_arizona, derek_russell, glen_and_dot_s_kid).
+actor(raising_arizona, zachary_sanders, glen_and_dot_s_kid).
+actor(raising_arizona, cody_ranger, arizona_quint).
+actor(raising_arizona, jeremy_arendt, arizona_quint).
+actor(raising_arizona, craig_mclaughlin, arizona_quint).
+actor(raising_arizona, adam_savageau, arizona_quint).
+actor(raising_arizona, benjamin_savageau, arizona_quint).
+actor(raising_arizona, david_schneider, arizona_quint).
+actor(raising_arizona, michael_stewart, arizona_quint).
+actor(raising_arizona, william_preston_robertson, amazing_voice).
+actor(raising_arizona, ron_francis_cobert, reporter_1).
+actor(rumble_fish, matt_dillon, rusty_james).
+actor(rumble_fish, mickey_rourke, the_motorcycle_boy).
+actor(rumble_fish, dennis_hopper, father).
+actor(rumble_fish, vincent_spano, steve).
+actor(rumble_fish, nicolas_cage, smokey).
+actor(rumble_fish, chris_penn, b_j_jackson).
+actor(rumble_fish, laurence_fishburne, midget).
+actor(rumble_fish, william_smith, patterson_the_cop).
+actor(rumble_fish, michael_higgins, mr_harrigan).
+actor(rumble_fish, glenn_withrow, biff_wilcox).
+actor(rumble_fish, tom_waits, benny).
+actor(rumble_fish, herb_rice, black_pool_player).
+actor(rumble_fish, gian_carlo_coppola, cousin_james).
+actor(rumble_fish, emmett_brown, mr_dobson).
+actor(rumble_fish, tracey_walter, alley_mugger_1).
+actor(rumble_fish, lance_guecia, alley_mugger_2).
+actor(rumble_fish, bob_maras, policeman).
+actor(rumble_fish, j_t_turner, math_teacher).
+actor(spies_like_us, chevy_chase, emmett_fitz_hume).
+actor(spies_like_us, dan_aykroyd, austin_millbarge).
+actor(spies_like_us, steve_forrest, general_sline).
+actor(spies_like_us, bruce_davison, ruby).
+actor(spies_like_us, bernie_casey, colonel_rhumbus).
+actor(spies_like_us, william_prince, keyes).
+actor(spies_like_us, tom_hatten, general_miegs).
+actor(spies_like_us, frank_oz, test_monitor).
+actor(spies_like_us, charles_mckeown, jerry_hadley).
+actor(spies_like_us, james_daughton, bob_hodges).
+actor(spies_like_us, jim_staahl, bud_schnelker).
+actor(spies_like_us, bjarne_thomsen, russian_rocket_crew).
+actor(spies_like_us, sergei_rousakov, russian_rocket_crew).
+actor(spies_like_us, garrick_dombrovski, russian_rocket_crew).
+actor(spies_like_us, terry_gilliam, dr_imhaus).
+actor(spies_like_us, costa_gavras, tadzhik_highway_patrol).
+actor(spies_like_us, seva_novgorodtsev, tadzhik_highway_patrol).
+actor(spies_like_us, stephen_hoye, captain_hefling).
+actor(spies_like_us, ray_harryhausen, dr_marston).
+actor(spies_like_us, mark_stewart, ace_tomato_courier).
+actor(spies_like_us, sean_daniel, ace_tomato_driver).
+actor(spies_like_us, jeff_harding, fitz_hume_s_associate).
+actor(spies_like_us, douglas_lambert, reporter).
+actor(spies_like_us, christopher_malcolm, jumpmaster).
+actor(spies_like_us, terrance_conder, soldier_1).
+actor(spies_like_us, matt_frewer, soldier_2).
+actor(spies_like_us, tony_cyrus, the_khan).
+actor(spies_like_us, derek_meddings, dr_stinson).
+actor(spies_like_us, robert_paynter, dr_gill).
+actor(spies_like_us, bob_hope, golfer).
+actor(spies_like_us, gurdial_sira, the_khan_s_brother).
+actor(spies_like_us, joel_coen, drive_in_security).
+actor(spies_like_us, sam_raimi, drive_in_security).
+actor(spies_like_us, michael_apted, ace_tomato_agent).
+actor(spies_like_us, b_b_king, ace_tomato_agent).
+actor(spies_like_us, larry_cohen, ace_tomato_agent).
+actor(spies_like_us, martin_brest, drive_in_security).
+actor(spies_like_us, ricco_ross, wamp_guard).
+actor(spies_like_us, richard_sharpe, wamp_technician).
+actor(spies_like_us, stuart_milligan, wamp_technician).
+actor(spies_like_us, john_daveikis, russian_border_guard).
+actor(spies_like_us, laurence_bilzerian, russian_border_guard).
+actor(spies_like_us, richard_kruk, russian_border_guard).
+actor(spies_like_us, bob_swaim, special_forces_commander).
+actor(spies_like_us, edwin_newman, himself).
+actor(star_wars_episode_i__the_phantom_menace, liam_neeson, qui_gon_jinn).
+actor(star_wars_episode_i__the_phantom_menace, ewan_mcgregor, obi_wan_kenobi).
+actor(star_wars_episode_i__the_phantom_menace, jake_lloyd, anakin_skywalker).
+actor(star_wars_episode_i__the_phantom_menace, frank_oz, yoda).
+actor(star_wars_episode_i__the_phantom_menace, ian_mcdiarmid, senator_palpatine).
+actor(star_wars_episode_i__the_phantom_menace, oliver_ford_davies, gov_sio_bibble).
+actor(star_wars_episode_i__the_phantom_menace, hugh_quarshie, capt_panaka).
+actor(star_wars_episode_i__the_phantom_menace, ahmed_best, jar_jar_binks).
+actor(star_wars_episode_i__the_phantom_menace, anthony_daniels, c_3po).
+actor(star_wars_episode_i__the_phantom_menace, kenny_baker, r2_d2).
+actor(star_wars_episode_i__the_phantom_menace, terence_stamp, supreme_chancellor_valorum).
+actor(star_wars_episode_i__the_phantom_menace, brian_blessed, boss_nass).
+actor(star_wars_episode_i__the_phantom_menace, andrew_secombe, watto).
+actor(star_wars_episode_i__the_phantom_menace, ray_park, darth_maul).
+actor(star_wars_episode_i__the_phantom_menace, lewis_macleod, sebulba).
+actor(star_wars_episode_i__the_phantom_menace, steven_spiers, capt_tarpals).
+actor(star_wars_episode_i__the_phantom_menace, silas_carson, viceroy_nute_gunray_ki_adi_mundi_lott_dodd_radiant_vii_pilot).
+actor(star_wars_episode_i__the_phantom_menace, ralph_brown, ric_oli).
+actor(star_wars_episode_i__the_phantom_menace, benedict_taylor, fighter_pilot_bravo_2).
+actor(star_wars_episode_i__the_phantom_menace, clarence_smith, fighter_pilot_bravo_3).
+actor(star_wars_episode_i__the_phantom_menace, samuel_l_jackson, mace_windu).
+actor(star_wars_episode_i__the_phantom_menace, dominic_west, palace_guard).
+actor(star_wars_episode_i__the_phantom_menace, john_fensom, tc_14).
+actor(star_wars_episode_i__the_phantom_menace, greg_proops, beed).
+actor(star_wars_episode_i__the_phantom_menace, scott_capurro, fode).
+actor(star_wars_episode_i__the_phantom_menace, dhruv_chanchani, kitster).
+actor(star_wars_episode_i__the_phantom_menace, oliver_walpole, seek).
+actor(star_wars_episode_i__the_phantom_menace, hassani_shapi, eeth_koth).
+actor(star_wars_episode_i__the_phantom_menace, khan_bonfils, saesee_tiin).
+actor(star_wars_episode_i__the_phantom_menace, phil_eason, yaddle).
+actor(star_wars_episode_i__the_phantom_menace, mark_coulier, aks_moe).
+actor(star_wars_episode_i__the_phantom_menace, peter_serafinowicz, darth_maul).
+actor(star_wars_episode_i__the_phantom_menace, james_taylor, rune_haako).
+actor(star_wars_episode_i__the_phantom_menace, chris_sanders, daultay_dofine).
+actor(star_wars_episode_i__the_phantom_menace, toby_longworth, sen_lott_dodd_gragra).
+actor(star_wars_episode_i__the_phantom_menace, marc_silk, aks_moe).
+actor(star_wars_episode_i__the_phantom_menace, don_bies, pod_race_mechanic).
+actor(star_wars_episode_i__the_phantom_menace, jerome_blake, rune_haako_mas_amedda_oppo_rancisis_orn_free_taa).
+actor(star_wars_episode_i__the_phantom_menace, ben_burtt, naboo_courier).
+actor(star_wars_episode_i__the_phantom_menace, doug_chiang, flag_bearer).
+actor(star_wars_episode_i__the_phantom_menace, rob_coleman, pod_race_spectator).
+actor(star_wars_episode_i__the_phantom_menace, roman_coppola, senate_guard).
+actor(star_wars_episode_i__the_phantom_menace, warwick_davis, wald_pod_race_spectator_mos_espa_citizen).
+actor(star_wars_episode_i__the_phantom_menace, c_michael_easton, pod_race_spectator).
+actor(star_wars_episode_i__the_phantom_menace, john_ellis, pod_race_spectator).
+actor(star_wars_episode_i__the_phantom_menace, ira_feiedman, naboo_courier).
+actor(star_wars_episode_i__the_phantom_menace, joss_gower, naboo_fighter_pilot).
+actor(star_wars_episode_i__the_phantom_menace, raymond_griffiths, gonk_droid).
+actor(star_wars_episode_i__the_phantom_menace, nathan_hamill, pod_race_spectator_naboo_palace_guard).
+actor(star_wars_episode_i__the_phantom_menace, tim_harrington, extra_naboo_security_gaurd).
+actor(star_wars_episode_i__the_phantom_menace, john_knoll, lt_rya_kirsch_bravo_4_flag_bearer).
+actor(star_wars_episode_i__the_phantom_menace, dan_madsen, kaadu_handler).
+actor(star_wars_episode_i__the_phantom_menace, iain_mccaig, orn_free_taa_s_aide).
+actor(star_wars_episode_i__the_phantom_menace, rick_mccallum, naboo_courier).
+actor(star_wars_episode_i__the_phantom_menace, lorne_peterson, mos_espa_citizen).
+actor(star_wars_episode_i__the_phantom_menace, alan_ruscoe, plo_koon_bib_foruna_daultay_dofine).
+actor(star_wars_episode_i__the_phantom_menace, steve_sansweet, naboo_courier).
+actor(star_wars_episode_i__the_phantom_menace, jeff_shay, pod_race_spectator).
+actor(star_wars_episode_i__the_phantom_menace, christian_simpson, bravo_6).
+actor(star_wars_episode_i__the_phantom_menace, paul_martin_smith, naboo_courier).
+actor(star_wars_episode_i__the_phantom_menace, scott_squires, naboo_speeder_driver).
+actor(star_wars_episode_i__the_phantom_menace, tom_sylla, battle_droid).
+actor(star_wars_episode_i__the_phantom_menace, danny_wagner, mawhonic).
+actor(star_wars_episode_i__the_phantom_menace, dwayne_williams, naboo_courier).
+actor(star_wars_episode_i__the_phantom_menace, matthew_wood, bib_fortuna_voice_of_ody_mandrell).
+actor(star_wars_episode_i__the_phantom_menace, bob_woods, naboo_courier).
+actor(torrance_rises, spike_jonze, richard_coufey).
+actor(torrance_rises, roman_coppola, roman_coppola).
+actor(torrance_rises, eminem, eminem).
+actor(torrance_rises, alvin_gaines_molina, himself).
+actor(torrance_rises, michael_gier, himself).
+actor(torrance_rises, richard_koufey, himself).
+actor(torrance_rises, byron_s_loyd, himself).
+actor(torrance_rises, kevin_l_maher, himself).
+actor(torrance_rises, tony_maxwell, himself).
+actor(torrance_rises, regis_philbin, regis_philbin).
+actor(torrance_rises, chris_rock, chris_rock).
+actor(torrance_rises, michael_rooney, michael_rooney).
+actor(torrance_rises, justin_ross, himself).
+actor(torrance_rises, fatboy_slim, fatboy_slim).
+actor(torrance_rises, will_smith, will_smith).
+actor(torrance_rises, frank_stancati, himself).
+actor(torrance_rises, tim_szczepanski, himself).
+actor(the_usual_suspects, stephen_baldwin, michael_mcmanus).
+actor(the_usual_suspects, gabriel_byrne, dean_keaton).
+actor(the_usual_suspects, benicio_del_toro, fred_fenster).
+actor(the_usual_suspects, kevin_pollak, todd_hockney).
+actor(the_usual_suspects, kevin_spacey, roger_verbal_kint).
+actor(the_usual_suspects, chazz_palminteri, dave_kujan_us_customs).
+actor(the_usual_suspects, pete_postlethwaite, kobayashi).
+actor(the_usual_suspects, giancarlo_esposito, jack_baer_fbi).
+actor(the_usual_suspects, dan_hedaya, sgt_geoffrey_jeff_rabin).
+actor(the_usual_suspects, paul_bartel, smuggler).
+actor(the_usual_suspects, carl_bressler, saul_berg).
+actor(the_usual_suspects, phillip_simon, fortier).
+actor(the_usual_suspects, jack_shearer, renault).
+actor(the_usual_suspects, clark_gregg, dr_walters).
+actor(the_usual_suspects, morgan_hunter, arkosh_kovash).
+actor(the_usual_suspects, ken_daly, translator).
+actor(the_usual_suspects, louis_lombardi, strausz).
+actor(the_usual_suspects, frank_medrano, rizzi).
+actor(the_usual_suspects, ron_gilbert, daniel_metzheiser_dept_of_justice).
+actor(the_usual_suspects, vito_d_ambrosio, arresting_officer).
+actor(the_usual_suspects, gene_lythgow, cop_on_pier).
+actor(the_usual_suspects, robert_elmore, bodyguard_1).
+actor(the_usual_suspects, david_powledge, bodyguard_2).
+actor(the_usual_suspects, bob_pennetta, bodyguard_3).
+actor(the_usual_suspects, billy_bates, bodyguard_4).
+actor(the_usual_suspects, castulo_guerra, arturro_marquez).
+actor(the_usual_suspects, peter_rocca, jaime_arturro_s_bodyguard).
+actor(the_usual_suspects, bert_williams, old_cop_in_property).
+actor(the_usual_suspects, john_gillespie, '').
+actor(the_usual_suspects, peter_greene, redfoot_the_fence).
+actor(the_usual_suspects, christopher_mcquarrie, interrogation_cop).
+actor(the_usual_suspects, scott_b_morgan, keyser_s_ze_in_flashback).
+actor(the_virgin_suicides, james_woods, mr_lisbon).
+actor(the_virgin_suicides, josh_hartnett, trip_fontaine).
+actor(the_virgin_suicides, michael_par, adult_trip_fontaine).
+actor(the_virgin_suicides, scott_glenn, father_moody).
+actor(the_virgin_suicides, danny_devito, dr_horniker).
+actor(the_virgin_suicides, anthony_desimone, chase_buell).
+actor(the_virgin_suicides, lee_kagan, david_barker).
+actor(the_virgin_suicides, robert_schwartzman, paul_baldino).
+actor(the_virgin_suicides, noah_shebib, parkie_denton).
+actor(the_virgin_suicides, jonathan_tucker, tim_weiner).
+actor(the_virgin_suicides, joe_roncetti, kevin_head).
+actor(the_virgin_suicides, hayden_christensen, joe_hill_conley).
+actor(the_virgin_suicides, chris_hale, peter_sisten).
+actor(the_virgin_suicides, joe_dinicol, dominic_palazzolo).
+actor(the_virgin_suicides, allen_stewart_coates, mr_scheer).
+actor(the_virgin_suicides, jonathon_whittaker, mr_buell).
+actor(the_virgin_suicides, murray_mcrae, mr_denton).
+actor(the_virgin_suicides, paul_sybersma, joe_larson).
+actor(the_virgin_suicides, peter_snider, trip_s_dad).
+actor(the_virgin_suicides, gary_brennan, donald).
+actor(the_virgin_suicides, charles_boyland, curt_van_osdol).
+actor(the_virgin_suicides, dustin_ladd, chip_willard).
+actor(the_virgin_suicides, fran_ois_klanfer, doctor).
+actor(the_virgin_suicides, mackenzie_lawrenz, jim_czeslawski).
+actor(the_virgin_suicides, tim_hall, kurt_siles).
+actor(the_virgin_suicides, amos_crawley, john).
+actor(the_virgin_suicides, andrew_gillies, principal_woodhouse).
+actor(the_virgin_suicides, scot_denton, mr_o_conner).
+actor(the_virgin_suicides, timothy_adams, buzz_romano).
+actor(the_virgin_suicides, michael_michaelessi, parks_department_foreman).
+actor(the_virgin_suicides, neil_girvan, drunk_man_in_pool).
+actor(the_virgin_suicides, mark_polley, cemetery_worker_1).
+actor(the_virgin_suicides, kirk_gonnsen, cemetery_worker_2).
+actor(the_virgin_suicides, derek_boyes, football_grieving_teacher).
+actor(the_virgin_suicides, john_buchan, john_lydia_s_boss).
+actor(the_virgin_suicides, giovanni_ribisi, narrator).
+actor(an_american_rhapsody, tony_goldwyn, peter_sandor).
+actor(an_american_rhapsody, zolt_n_seress, george).
+actor(an_american_rhapsody, zsolt_zagoni, russian_soldier).
+actor(an_american_rhapsody, andr_s_sz_ke, istvan).
+actor(an_american_rhapsody, carlos_laszlo_weiner, boy_on_train_boy_at_party).
+actor(an_american_rhapsody, p_ter_k_lloy_moln_r, avo_officer).
+actor(an_american_rhapsody, bal_zs_galk, jeno).
+actor(an_american_rhapsody, don_pugsley, cafe_supervisor).
+actor(an_american_rhapsody, vladimir_mashkov, frank).
+actor(an_american_rhapsody, robert_lesser, harold).
+actor(an_american_rhapsody, lou_beach, party_goer).
+actor(an_american_rhapsody, timothy_everett_moore, paul).
+actor(an_american_rhapsody, joshua_dov, richard).
+actor(an_american_rhapsody, andras_banlaki, '').
+actor(an_american_rhapsody, peter_janosi, german_customs_officer).
+actor(the_black_dahlia, josh_hartnett, ofcr_dwight_bucky_bleichert).
+actor(the_black_dahlia, aaron_eckhart, sgt_leland_lee_blanchard).
+actor(the_black_dahlia, graham_norris, sgt_john_carter).
+actor(the_black_dahlia, richard_brake, bobby_dewitt).
+actor(the_black_dahlia, kevin_dunn, cleo_short).
+actor(the_black_dahlia, troy_evans, '').
+actor(the_black_dahlia, william_finley, '').
+actor(the_black_dahlia, patrick_fischler, a_d_a_ellis_loew).
+actor(the_black_dahlia, michael_p_flannigan, desk_sergeant).
+actor(the_black_dahlia, gregg_henry, '').
+actor(the_black_dahlia, john_kavanagh, emmet_linscott).
+actor(the_black_dahlia, steven_koller, male_nurse).
+actor(the_black_dahlia, angus_macinnes, '').
+actor(the_black_dahlia, david_mcdivitt, cop).
+actor(the_black_dahlia, victor_mcguire, '').
+actor(the_black_dahlia, james_otis, '').
+actor(the_black_dahlia, david_raibon, black_man).
+actor(the_black_dahlia, anthony_russell, '').
+actor(the_black_dahlia, joost_scholte, gi_pick_up).
+actor(the_black_dahlia, pepe_serna, '').
+actor(the_black_dahlia, joey_slotnick, '').
+actor(the_black_dahlia, mike_starr, russ_millard).
+actor(fall, eric_schaeffer, michael).
+actor(fall, rudolf_martin, phillipe).
+actor(fall, jose_yenque, scasse).
+actor(fall, josip_kuchan, zsarko).
+actor(fall, willis_burks_ii, baja).
+actor(fall, scott_cohen, derick).
+actor(fall, a_j_lopez, bellboy).
+actor(fall, casper_martinez, church_goer).
+actor(fall, arthur_j_nascarella, anthony_the_maitre_d).
+actor(fall, john_o_nelson, guy_by_window).
+actor(fall, amaury_nolasco, waiter).
+actor(fall, marc_sebastian, popparazi).
+actor(fall, evan_thompson, priest).
+actor(fall, larry_weiss, paparazzi).
+actor(eight_legged_freaks, david_arquette, chris_mccormick).
+actor(eight_legged_freaks, scott_terra, mike_parker).
+actor(eight_legged_freaks, doug_e_doug, harlan_griffith).
+actor(eight_legged_freaks, rick_overton, deputy_pete_willis).
+actor(eight_legged_freaks, leon_rippy, wade).
+actor(eight_legged_freaks, matt_czuchry, bret).
+actor(eight_legged_freaks, jay_arlen_jones, leon).
+actor(eight_legged_freaks, riley_smith, randy).
+actor(eight_legged_freaks, matt_holwick, larry).
+actor(eight_legged_freaks, jack_moore, amos).
+actor(eight_legged_freaks, roy_gaintner, floyd).
+actor(eight_legged_freaks, don_champlin, leroy).
+actor(eight_legged_freaks, john_storey, mark).
+actor(eight_legged_freaks, david_earl_waterman, norman).
+actor(eight_legged_freaks, john_ennis, cop_1).
+actor(eight_legged_freaks, ryan_c_benson, cop_2).
+actor(eight_legged_freaks, bruiser, himself).
+actor(eight_legged_freaks, tom_noonan, joshua_taft).
+actor(ghost_world, steve_buscemi, seymour).
+actor(ghost_world, brad_renfro, josh).
+actor(ghost_world, bob_balaban, enid_s_dad).
+actor(ghost_world, charles_c_stevenson_jr, norman).
+actor(ghost_world, dave_sheridan, doug).
+actor(ghost_world, tom_mcgowan, joe).
+actor(ghost_world, brian_george, sidewinder_boss).
+actor(ghost_world, pat_healy, john_ellis).
+actor(ghost_world, t_j_thyne, todd).
+actor(ghost_world, ezra_buzzington, weird_al).
+actor(ghost_world, chachi_pittman, phillip__art_class).
+actor(ghost_world, alexander_fors, hippy_boy__art_class).
+actor(ghost_world, marc_vann, jerome_the_angry_guy__record_collector).
+actor(ghost_world, james_sie, steven_the_asian_guy__record_collector).
+actor(ghost_world, paul_keith, paul_the_fussy_guy__record_collector).
+actor(ghost_world, david_cross, gerrold_the_pushy_guy__record_collector).
+actor(ghost_world, j_j_bad_boy_jones, fred_chatman__blues_club).
+actor(ghost_world, martin_grey, m_c__blues_club).
+actor(ghost_world, steve_pierson, blueshammer_member__blues_club).
+actor(ghost_world, jake_la_botz, blueshammer_member__blues_club).
+actor(ghost_world, johnny_irion, blueshammer_member__blues_club).
+actor(ghost_world, nate_wood, blueshammer_member__blues_club).
+actor(ghost_world, charles_schneider, joey_mccobb_the_stand_up_comic).
+actor(ghost_world, sid_hillman, zine_o_phobia_creep).
+actor(ghost_world, joshua_wheeler, zine_o_phobia_creep).
+actor(ghost_world, patrick_fischler, masterpiece_video_clerk).
+actor(ghost_world, daniel_graves, masterpiece_video_customer).
+actor(ghost_world, matt_doherty, masterpiece_video_employee).
+actor(ghost_world, joel_michaely, porno_cashier).
+actor(ghost_world, joseph_sikora, reggae_fan).
+actor(ghost_world, brett_gilbert, alien_autopsy_guy).
+actor(ghost_world, alex_solowitz, cineplex_manager).
+actor(ghost_world, tony_ketcham, alcoholic_customer).
+actor(ghost_world, brian_jacobs, soda_customer).
+actor(ghost_world, patrick_yonally, garage_sale_hipster).
+actor(ghost_world, jeff_murray, roberta_s_colleague).
+actor(ghost_world, jerry_rector, dana_s_co_worker).
+actor(ghost_world, john_bunnell, seymour_s_boss).
+actor(ghost_world, bruce_glover, feldman_the_wheel_chair_guy).
+actor(ghost_world, michael_chanslor, orange_colored_sky_keyboarder_graduation_band).
+actor(ghost_world, alan_heitz, driver).
+actor(ghost_world, ernie_hernandez, orange_colored_sky_guitarist_graduation_band).
+actor(ghost_world, felice_hernandez, orange_colored_sky_singer_graduation_band).
+actor(ghost_world, larry_klein, orange_colored_sky_drummer_graduation_band).
+actor(ghost_world, james_matusky, reggae_fan_2).
+actor(ghost_world, edward_t_mcavoy, mr_satanist).
+actor(ghost_world, larry_parker, orange_colored_sky_bassist_graduation_band).
+actor(ghost_world, greg_wendell_reid, yuppie_1).
+actor(ghost_world, peter_yarrow, himself).
+actor(a_good_woman, stephen_campbell_moore, lord_darlington).
+actor(a_good_woman, mark_umbers, robert_windemere).
+actor(a_good_woman, roger_hammond, cecil).
+actor(a_good_woman, john_standing, dumby).
+actor(a_good_woman, tom_wilkinson, tuppy).
+actor(a_good_woman, bruce_mcguire, waiter_joe).
+actor(a_good_woman, michael_stromme, hotel_desk_clerk).
+actor(a_good_woman, antonio_barbaro, paulo).
+actor(a_good_woman, filippo_santoro, old_man).
+actor(a_good_woman, augusto_zucchi, antique_shop_keeper).
+actor(if_lucy_fell, eric_schaeffer, joe_macgonaughgill).
+actor(if_lucy_fell, ben_stiller, bwick_elias).
+actor(if_lucy_fell, james_rebhorn, simon_ackerman).
+actor(if_lucy_fell, robert_john_burke, handsome_man).
+actor(if_lucy_fell, david_thornton, ted).
+actor(if_lucy_fell, bill_sage, dick).
+actor(if_lucy_fell, dominic_chianese, al).
+actor(if_lucy_fell, michael_storms, sam).
+actor(if_lucy_fell, jason_myers, billy).
+actor(if_lucy_fell, paul_greco, rene).
+actor(if_lucy_fell, mujibur_rahman, counterman).
+actor(if_lucy_fell, sirajul_islam, counterman).
+actor(if_lucy_fell, ben_lin, chinese_messenger).
+actor(if_lucy_fell, peter_walker, bag_man).
+actor(if_lucy_fell, bradley_jenkel, neighbor).
+actor(if_lucy_fell, brian_keane, man_in_gallery).
+actor(home_alone_3, alex_d_linz, alex_pruitt).
+actor(home_alone_3, olek_krupa, peter_beaupre).
+actor(home_alone_3, lenny_von_dohlen, burton_jernigan).
+actor(home_alone_3, david_thornton, earl_unger).
+actor(home_alone_3, kevin_kilner, jack_pruitt).
+actor(home_alone_3, seth_smith, stan_pruitt).
+actor(home_alone_3, christopher_curry, agent_stuckey).
+actor(home_alone_3, baxter_harris, police_captain).
+actor(home_alone_3, james_saito, chinese_mob_boss).
+actor(home_alone_3, kevin_gudahl, techie).
+actor(home_alone_3, richard_hamilton, taxi_driver).
+actor(home_alone_3, freeman_coffey, recruiting_officer).
+actor(home_alone_3, neil_flynn, police_officer_1).
+actor(home_alone_3, tony_mockus_jr, police_officer_2).
+actor(home_alone_3, pat_healy, agent_rogers).
+actor(home_alone_3, james_chisem, police_officer_3).
+actor(home_alone_3, darwin_harris, photographer).
+actor(home_alone_3, joseph_luis_caballero, security_guard).
+actor(home_alone_3, larry_c_tankson, cart_driver).
+actor(home_alone_3, darren_t_knaus, parrot).
+actor(home_alone_3, andy_john_g_kalkounos, police_officer_1).
+actor(home_alone_3, zachary_lee, johnny_allen).
+actor(the_horse_whisperer, robert_redford, tom_booker).
+actor(the_horse_whisperer, sam_neill, robert_maclean).
+actor(the_horse_whisperer, chris_cooper, frank_booker).
+actor(the_horse_whisperer, ty_hillman, joe_booker).
+actor(the_horse_whisperer, austin_schwarz, twin_1).
+actor(the_horse_whisperer, dustin_schwarz, twin_2).
+actor(the_horse_whisperer, steve_frye, hank).
+actor(the_horse_whisperer, don_edwards, smokey).
+actor(the_horse_whisperer, william_buddy_byrd, lester_petersen).
+actor(the_horse_whisperer, john_hogarty, local_tracker).
+actor(the_horse_whisperer, michel_lalonde, park_ranger).
+actor(the_horse_whisperer, c_j_byrnes, doctor).
+actor(the_horse_whisperer, george_a_sack_jr, truck_driver).
+actor(the_horse_whisperer, stephen_pearlman, david_gottschalk).
+actor(the_horse_whisperer, curt_pate, handsome_cowboy).
+actor(the_perfect_score, michael_ryan, anna_s_father).
+actor(the_perfect_score, robert_clarke, arnie_branch).
+actor(the_perfect_score, serge_houde, kurt_dooling).
+actor(the_perfect_score, kyle_labine, dave).
+actor(the_perfect_score, dee_jay_jackson, ets_lobby_guard).
+actor(the_perfect_score, alf_humphreys, tom_helton).
+actor(the_perfect_score, fulvio_cecere, francesca_s_father).
+actor(the_perfect_score, mike_jarvis, illinois_coach).
+actor(the_perfect_score, steve_makaj, kyle_s_father).
+actor(the_perfect_score, kurt_max_runte, swat_captain).
+actor(the_perfect_score, jay_brazeau, test_instructor).
+actor(the_perfect_score, alex_green, security_guard).
+actor(the_perfect_score, samuel_scantlebury, keyon).
+actor(the_perfect_score, alex_corr, preppy_boy).
+actor(the_perfect_score, nikolas_malenovic, boy).
+actor(the_perfect_score, john_shaw, ets_man).
+actor(the_perfect_score, jamie_yochlowitz, man_in_jail).
+actor(the_perfect_score, rob_boyce, guard).
+actor(the_perfect_score, paul_campbell, guy_in_truck).
+actor(the_spongebob_squarepants_movie, tom_kenny, spongebob_narrator_gary_clay_tough_fish_2_twin_2_houston_voice).
+actor(the_spongebob_squarepants_movie, clancy_brown, mr_krabs).
+actor(the_spongebob_squarepants_movie, rodger_bumpass, squidward_fish_4).
+actor(the_spongebob_squarepants_movie, bill_fagerbakke, patrick_star_fish_2_chum_customer_local_fish).
+actor(the_spongebob_squarepants_movie, mr_lawrence, plankton_fish_7_attendant_2_lloyd).
+actor(the_spongebob_squarepants_movie, jeffrey_tambor, king_neptune).
+actor(the_spongebob_squarepants_movie, alec_baldwin, dennis).
+actor(the_spongebob_squarepants_movie, david_hasselhoff, himself).
+actor(the_spongebob_squarepants_movie, kristopher_logan, squinty_the_pirate).
+actor(the_spongebob_squarepants_movie, d_p_fitzgerald, bonesy_the_pirate).
+actor(the_spongebob_squarepants_movie, cole_s_mckay, scruffy_the_pirate).
+actor(the_spongebob_squarepants_movie, dylan_haggerty, stitches_the_pirate).
+actor(the_spongebob_squarepants_movie, bart_mccarthy, captain_bart_the_pirate).
+actor(the_spongebob_squarepants_movie, henry_kingi, inky_the_pirate).
+actor(the_spongebob_squarepants_movie, randolph_jones, tiny_the_pirate).
+actor(the_spongebob_squarepants_movie, paul_zies, upper_deck_the_pirate).
+actor(the_spongebob_squarepants_movie, gerard_griesbaum, fingers_the_pirate).
+actor(the_spongebob_squarepants_movie, aaron_hendry, tangles_the_pirate_cyclops_diver).
+actor(the_spongebob_squarepants_movie, maxie_j_santillan_jr, gummy_the_pirate).
+actor(the_spongebob_squarepants_movie, peter_deyoung, leatherbeard_the_pirate).
+actor(the_spongebob_squarepants_movie, gino_montesinos, tango_the_pirate).
+actor(the_spongebob_squarepants_movie, john_siciliano, pokey_the_pirate).
+actor(the_spongebob_squarepants_movie, david_stifel, cookie_the_pirate).
+actor(the_spongebob_squarepants_movie, alex_baker, martin_the_pirate).
+actor(the_spongebob_squarepants_movie, robin_russell, sniffy_the_pirate).
+actor(the_spongebob_squarepants_movie, tommy_schooler, salty_the_pirate).
+actor(the_spongebob_squarepants_movie, ben_wilson, stovepipe_the_pirate).
+actor(the_spongebob_squarepants_movie, jose_zelaya, dooby_the_pirate).
+actor(the_spongebob_squarepants_movie, chris_cummins, concession_guy).
+actor(the_spongebob_squarepants_movie, todd_duffey, concession_guy).
+actor(the_spongebob_squarepants_movie, dee_bradley_baker, man_cop_phil_perch_perkins_waiter_attendant_1_thug_1_coughing_fish_twin_1_frog_fish_monster_freed_fish_sandals).
+actor(the_spongebob_squarepants_movie, thomas_f_wilson, fish_3_tough_fish_1_victor).
+actor(the_spongebob_squarepants_movie, carlos_alazraqui, squire_goofy_goober_announcer_thief).
+actor(the_spongebob_squarepants_movie, joshua_seth, prisoner).
+actor(the_spongebob_squarepants_movie, tim_blaney, singing_goofy_goober).
+actor(the_spongebob_squarepants_movie, derek_drymon, the_screamer_fisherman).
+actor(the_spongebob_squarepants_movie, aaron_springer, laughing_bubble).
+actor(the_spongebob_squarepants_movie, neil_ross, cyclops).
+actor(the_spongebob_squarepants_movie, stephen_hillenburg, parrot).
+actor(the_spongebob_squarepants_movie, michael_patrick_bell, fisherman).
+actor(the_spongebob_squarepants_movie, jim_wise, goofy_goober_rock_singer).
+actor(untitled_woody_allen_fall_project_2006, woody_allen, '').
+actor(untitled_woody_allen_fall_project_2006, jody_halse, bouncer).
+actor(untitled_woody_allen_fall_project_2006, hugh_jackman, '').
+actor(untitled_woody_allen_fall_project_2006, robyn_kerr, '').
+actor(untitled_woody_allen_fall_project_2006, kevin_mcnally, mike_tinsley).
+actor(untitled_woody_allen_fall_project_2006, ian_mcshane, '').
+actor(untitled_woody_allen_fall_project_2006, james_nesbitt, '').
+actor(untitled_woody_allen_fall_project_2006, colin_salmon, '').
+actor(a_view_from_the_bridge, anthony_lapaglia, eddie_carbone).
+
+:- dynamic actress/3.
+
+actress(american_beauty, annette_bening, carolyn_burnham).
+actress(american_beauty, thora_birch, jane_burnham).
+actress(american_beauty, mena_suvari, angela_hayes).
+actress(american_beauty, allison_janney, barbara_fitts).
+actress(american_beauty, ara_celi, sale_house_woman_1).
+actress(american_beauty, sue_casey, sale_house_woman_2).
+actress(american_beauty, brenda_wehle, sale_house_woman_4).
+actress(american_beauty, lisa_cloud, sale_house_woman_5).
+actress(american_beauty, alison_faulk, spartanette_1).
+actress(american_beauty, krista_goodsitt, spartanette_2).
+actress(american_beauty, lily_houtkin, spartanette_3).
+actress(american_beauty, carolina_lancaster, spartanette_4).
+actress(american_beauty, romana_leah, spartanette_5).
+actress(american_beauty, chekeshka_van_putten, spartanette_6).
+actress(american_beauty, emily_zachary, spartanette_7).
+actress(american_beauty, nancy_anderson, spartanette_8).
+actress(american_beauty, reshma_gajjar, spartanette_9).
+actress(american_beauty, stephanie_rizzo, spartanette_10).
+actress(american_beauty, heather_joy_sher, playground_girl_1).
+actress(american_beauty, chelsea_hertford, playground_girl_2).
+actress(american_beauty, amber_smith, christy_kane).
+actress(american_beauty, marissa_jaret_winokur, mr_smiley_s_counter_girl).
+actress(american_beauty, erin_cathryn_strubbe, young_jane_burnham).
+actress(american_beauty, elaine_corral_kendall, newscaster).
+actress(anna, sally_kirkland, anna).
+actress(anna, paulina_porizkova, krystyna).
+actress(anna, julianne_gilliam, woman_author).
+actress(anna, deirdre_o_connell, assistant_2).
+actress(anna, ruth_maleczech, woman_1_woman_named_gloria).
+actress(anna, holly_villaire, woman_2_woman_with_bird).
+actress(anna, shirl_bernheim, woman_3_woman_in_white_veil).
+actress(anna, ren_e_coleman, woman_4_woman_in_bonnet).
+actress(anna, gabriela_farrar, woman_5_woman_in_black).
+actress(anna, jordana_levine, woman_6_woman_in_turban).
+actress(anna, rosalie_traina, woman_7_woman_in_gold).
+actress(anna, maggie_wagner, actress_d).
+actress(anna, mimi_weddell, agent_s_secretary).
+actress(anna, lola_pashalinski, producer).
+actress(anna, geena_goodwin, daniel_s_mother).
+actress(anna, caroline_aaron, interviewer).
+actress(anna, sofia_coppola, noodle).
+actress(anna, nina_port, dancing_dishwasher).
+actress(barton_fink, judy_davis, audrey_taylor).
+actress(barton_fink, meagen_fay, poppy_carnahan).
+actress(barton_fink, gayle_vance, geisler_s_secretary).
+actress(barton_fink, jana_marie_hupp, uso_girl).
+actress(barton_fink, isabelle_townsend, beauty).
+actress(the_big_lebowski, julianne_moore, maude_lebowski).
+actress(the_big_lebowski, tara_reid, bunny_lebowski).
+actress(the_big_lebowski, lu_elrod, coffee_shop_waitress).
+actress(the_big_lebowski, irene_olga_l_pez, pilar_sellers_housekeeper).
+actress(the_big_lebowski, aimee_mann, nihilist_woman).
+actress(the_big_lebowski, jennifer_lamb, pancake_waitress).
+actress(the_big_lebowski, wendy_braun, chorine_dancer).
+actress(the_big_lebowski, asia_carrera, sherry_in_logjammin).
+actress(the_big_lebowski, kiva_dawson, dancer).
+actress(the_big_lebowski, robin_jones, checker_at_ralph_s).
+actress(blade_runner, gwen_castaldi, dispatcher_and_newscaster).
+actress(blade_runner, signy_coleman, dektora).
+actress(blade_runner, lisa_edelstein, crystal_steele).
+actress(blade_runner, gloria_hoffmann, mia).
+actress(blade_runner, kia_huntzinger, additional_voices).
+actress(blade_runner, shelly_johnson, additional_voices).
+actress(blade_runner, etsuko_mader, additional_voices).
+actress(blade_runner, karen_maruyama, fish_dealer).
+actress(blade_runner, pauley_perrette, lucy_devlin).
+actress(blade_runner, rosalyn_sidewater, isabella).
+actress(blade_runner, jessica_straus, answering_machine_female_announcer).
+actress(blade_runner, melonie_sung, additional_voices).
+actress(blade_runner, myriam_tubert, insect_dealer).
+actress(blade_runner, sandra_wang, additional_voices).
+actress(blade_runner, sean_young, rachael).
+actress(blood_simple, frances_mcdormand, abby).
+actress(blood_simple, deborah_neumann, debra).
+actress(blood_simple, raquel_gavia, landlady).
+actress(blood_simple, shannon_sedwick, stripper).
+actress(blood_simple, nancy_finger, girl_on_overlook).
+actress(blood_simple, holly_hunter, helene_trend).
+actress(the_cotton_club, diane_lane, vera_cicero).
+actress(the_cotton_club, lonette_mckee, lila_rose_oliver).
+actress(the_cotton_club, gwen_verdon, tish_dwyer).
+actress(the_cotton_club, lisa_jane_persky, frances_flegenheimer).
+actress(the_cotton_club, novella_nelson, madame_st_clair).
+actress(the_cotton_club, jennifer_grey, patsy_dwyer).
+actress(the_cotton_club, wynonna_smith, winnie_williams).
+actress(the_cotton_club, thelma_carpenter, norma_williams).
+actress(the_cotton_club, diane_venora, gloria_swanson).
+actress(the_cotton_club, sandra_beall, myrtle_fay).
+actress(the_cotton_club, susan_mechsner, gypsie).
+actress(the_cotton_club, norma_jean_darden, elda_webb).
+actress(the_cotton_club, rosalind_harris, fanny_brice).
+actress(the_cotton_club, sofia_coppola, child_in_street).
+actress(the_cotton_club, ninon_digiorgio, child_in_street).
+actress(the_cotton_club, daria_hines, child_in_street).
+actress(the_cotton_club, patricia_letang, child_in_street).
+actress(the_cotton_club, danielle_osborne, child_in_street).
+actress(the_cotton_club, priscilla_baskerville, creole_love_call_sung_by).
+actress(the_cotton_club, ethel_beatty, bandana_babies_lead_vocal_dancer).
+actress(the_cotton_club, sydney_goldsmith, barbecue_bess_sung_by).
+actress(the_cotton_club, lydia_abarca, dancer).
+actress(the_cotton_club, sarita_allen, dancer).
+actress(the_cotton_club, tracey_bass, dancer).
+actress(the_cotton_club, jacquelyn_bird, dancer).
+actress(the_cotton_club, shirley_black_brown, dancer).
+actress(the_cotton_club, jhoe_breedlove, dancer).
+actress(the_cotton_club, leslie_caldwell, dancer).
+actress(the_cotton_club, melanie_caldwell, dancer).
+actress(the_cotton_club, sheri_cowart, dancer).
+actress(the_cotton_club, karen_dibianco, dancer).
+actress(the_cotton_club, cisco_drayton, dancer).
+actress(the_cotton_club, anne_duquesnay, dancer).
+actress(the_cotton_club, carla_earle, dancer).
+actress(the_cotton_club, wendy_edmead, dancer).
+actress(the_cotton_club, debbie_fitts, dancer).
+actress(the_cotton_club, ruthanna_graves, dancer).
+actress(the_cotton_club, terri_griffin, dancer).
+actress(the_cotton_club, robin_harmon, dancer).
+actress(the_cotton_club, jackee_harree, dancer).
+actress(the_cotton_club, sonya_hensley, dancer).
+actress(the_cotton_club, gail_kendricks, dancer).
+actress(the_cotton_club, christina_kumi_kimball, dancer).
+actress(the_cotton_club, mary_beth_kurdock, dancer).
+actress(the_cotton_club, paula_lynn, dancer).
+actress(the_cotton_club, delores_mcharris, dancer).
+actress(the_cotton_club, vody_najac, dancer).
+actress(the_cotton_club, vya_negromonte, dancer).
+actress(the_cotton_club, alice_anne_oates, dancer).
+actress(the_cotton_club, anne_palmer, dancer).
+actress(the_cotton_club, julie_pars, dancer).
+actress(the_cotton_club, antonia_pettiford, dancer).
+actress(the_cotton_club, valarie_pettiford, dancer).
+actress(the_cotton_club, janet_powell, dancer).
+actress(the_cotton_club, renee_rodriguez, dancer).
+
+
